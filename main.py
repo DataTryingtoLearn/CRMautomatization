@@ -16,7 +16,7 @@ def cuenta_regresiva(segundos):
         sys.stdout.write(f"\rCerrando en {tiempo}...")
         sys.stdout.flush()
         time.sleep(1)
-    print("\n✅ Script finalizado. Cerrando...")
+    print("\n Script finalizado. Cerrando...")
 
 if __name__ == "__main__":
     hoy = datetime.today()
@@ -37,7 +37,7 @@ if __name__ == "__main__":
     time.sleep(3)
 
     if not ruta_csv1 or not ruta_csv2:
-        print("❌ No se pudieron descargar ambos reportes. Abortando...")
+        print("No se pudieron descargar ambos reportes. Abortando...")
         sys.exit(1)
     
     #Paso 2
